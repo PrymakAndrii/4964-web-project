@@ -37,6 +37,16 @@ Do **not introduce frameworks** unless explicitly requested.
 
 ---
 
+# Build and Test
+
+This is a static website with no build process. Serve locally with `npx serve`.
+
+Testing is automated via GitHub Actions using HTML Proofer to validate HTML structure and links.
+
+See [README.md](README.md) for HTML Proofer usage and ignoring elements.
+
+---
+
 # Core Development Principles
 
 AI-generated code must follow these principles:

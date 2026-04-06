@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Web site</title>
+    <title>Car Tuning Studio</title>
     <link rel="shortcut icon" href="#" type="image/x-icon" />
     <script
       src="https://unpkg.com/htmx.org@1.9.10"
@@ -12,18 +12,17 @@
     ></script>
   </head>
   <body>
-    <header class="header">
+    <header>
       <nav
         data-hx-trigger="load"
         data-hx-swap="outerHTML"
-        data-hx-get="global.header-nav.partial.html"
+        data-hx-get="header-nav.partial.html"
       ></nav>
+      
     </header>
-    <main></main>
-    <footer
-      data-hx-trigger="load"
-      data-hx-swap="outerHTML"
-      data-hx-get="global.header-nav.partial.html"
-    ></footer>
+    <main>
+
+    </main>
+    <footer></footer>
   </body>
 </html>
